@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font">
+  <title>Portofolio Vammy Johannis Jiang</title>
+</head>
+
+<body>
+  
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Vammy Johannis Jiang</title>
+</head>
+
+<nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checbtn">
+      <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo">Profile</label>
+  <ul>
+      <li><a class="active" href="prog">Home</a></li>
+      <li><a href="#description">Description</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#hobby">Hobbies</a></li>
+  </ul>
+</nav>
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black" title="Close Menu">
+  </a>
+  
+  <a class="w3-bar-item w3-button w3-hover-black" href="#description">Description</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#contact">Contact</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#edu">Education</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#hobby">Hobbies</a>
+</nav>
+  
+
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="w3-main" style="margin-left:250px">
+  <section id="description">
+  <h2 class="desc">Description</h2>
+    <p class="desc"> An aspiring computer science major at Binus University International, currently interested in web development and python progamming.</p>
+    <fieldset>
+    <legend>Gender</legend>
+    <label><input id="Male" type="radio" name="male-female" value="male" checked>Male</label>
+    <label><input id="Female" type="radio" name="male-female" value="">Female</label>
+    </fieldset>
+  </section>
+  
+
+   <hr>
+
+  <!--Social Media and Links-->
+  <section id="contact">
+    <h2 class="contact">Contact Information</h2>
+    <div class="col-sm-4">
+    <table class="table" border="3px" cellpadding ="7">
+      <tr>
+        <td class="email"> Email </td>
+        <td> <p class="email">vammyjiang07@gmail.com</p></td>
+      </tr>
+      <tr>
+        <td class="PW"> Phone/Whatsapp </td>
+        <td> <p class="PW"> 082386964448 </p></td>
+      </tr>
+      <tr>
+        <td class="IG"> Instagram </td>
+        <td> <p class="IG"><a href="https://www.instagram.com/vammy_redo/"> vammy_redo </a></p></td>
+      </tr>
+    </table>
+    </div>
+  </section>
+  
+  <hr>
+  
+
+  <!--Profile Pic and Hover-->
+  <section class="container">
+    <img class="pfp" src="pfp.jpg" alt="Vammy">
+    <p class="nickname">Vam, Vammy</p> 
+  </section>
+  
+  <hr>
+  
+  <!--Education-->
+  <section id="education">
+    <h2 class="edu">Education :</h2>
+    <ol>
+    <li><p class="school"> ( 2020 - 2023 ) -<a href="https://www.smakyossudarsobatam.sch.id/"> Yos Sudarso High School Batam</a></p></li>
+    <li><p class="school"> ( 2023 - Current ) - Computer Science at<a href="https://international.binus.ac.id/computer-science/"> Binus University International</a></p></li>  
+    </ol>
+  </section>
+  
+  <hr>
+  
+  <!--Progamming Skills-->
+  <section id="prog">
+    <fieldset>
+    <legend>Progamming Skills</legend>
+    <input id="python" type="checkbox" class="progamming" value="python" checked><label for="python">python</label>
+    <input id="html" type="checkbox" class="progamming" value="html" checked><label for="html">html</label>
+    <input id="css" type="checkbox" class="progamming" value="css" checked><label for="css">css</label>
+    </fieldset>
+  
+  
+  </section>
+    
+  <hr>
+
+  <!--Hobbies-->
+  <section id="hobby">
+    <h2 class="hobby">Hobbies, Interest, Favorite :</h2>
+    <ul>
+    <li class="hobby">I like playing games such as Genshin</li>
+    <li class="hobby">I love music, my favorite genre is pop and jazz, my favorite artists are Fujii Kaze and Charlie Puth</li>
+    <li class="hobby">I love reading novels especially fantasy and otherworldly genres</li>
+    <li class="hobby">I am interested in coding especially html,css and java script</li>
+    </ul>
+  </section>
+  
+
+  <section>
+    <h2 class="title">FAQs</h2>
+
+    <div class="faq">
+     <div class="question">
+       <h3>Where and when were you born ? </h3>
+
+       <svg width="25" height="15" viewBox="0 0 42 25">
+           <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+       </svg>
+     </div>
+     <div class="answer">
+       <p>
+       Tanjung Balai Karimun, 7 November 2005
+       </p>
+
+     </div>
+    </div>
+   </section>
+
+   <section>
+       <div class="faq">
+        <div class="question">
+          <h3>What do you do in your freetime? </h3>
+  
+          <svg width="25" height="15" viewBox="0 0 42 25">
+              <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+           I love reading whether fantasy, novel or an article relating to random facts
+          </p>
+  
+        </div>
+       </div>
+      </section>
+
+      <section>
+       <div class="faq">
+        <div class="question">
+          <h3>How many hour are in a year? </h3>
+  
+          <svg width="25" height="15" viewBox="0 0 42 25">
+              <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+           8760 Hours
+          </p>
+  
+        </div>
+       </div>
+      </section>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script>
+      $(document).ready(function() {
+       const faqs = $(".faq");
+
+       faqs.each(function() {
+           $(this).click(function() {
+               $(this).toggleClass("active");
+           });
+       });
+   });
+       </script>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+   <a class="w3-margin w3-xlarge"  href="https://www.youtube.com/watch?v=shZyg5VFI1Y&pp=ygUJYmlyaSBiaXJp">QOTD : Christmas is Coming </a>
+  </body>
+</body>
+</main>
+</body>
+</html>

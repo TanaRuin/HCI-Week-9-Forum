@@ -1,0 +1,335 @@
+hr {
+    height: 3px;
+    background-color: burlywood;
+    border-color: brown;
+}
+
+body, html {
+    background-color: #fff3e3;
+}
+.occupation {
+    font-style:italic;
+}
+
+.name, .occupation, .ID {
+    text-align: center;
+    font-family: Geneva;
+}
+
+.desc, .contact, .edu, .hobby,.email, .PW, .IG,.school,.hobby {
+    font-family: Arial;
+}
+
+.table {
+    border-color:burlywood;
+    border: 2px;
+    padding: 10px;
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: auto;
+}
+
+.pfp {
+    width: 200px; 
+    height: auto; 
+    transition: opacity 0.3s; 
+    position: center
+}
+
+.pfp:hover {
+    opacity: 0; 
+}
+
+.nickname {
+    display: none;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.pfp:hover + .nickname {
+    display: block;
+}
+
+a {
+    color: blue;
+  }
+  
+a:visited {
+    color: blue;
+}
+  
+a:hover {
+    color: brown;
+}
+  
+a:active {
+    color: brown;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
+
+.Identity {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #F5E9D3;
+    border-radius: 10px;
+    background-color: #f5d8cb;
+    color: #bfa2ca;
+    margin-top: 20px;
+}
+
+.pfp {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 70%;
+    margin: auto;
+    background: #F5D8CB;
+  }
+
+h1 {
+    margin-right: 300px;
+}  
+
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .topnav {
+        flex-direction: column;
+    }
+
+    .topnav {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #f5d8cb;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color:#bfa2ca;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;   
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    visibility: visible;
+
+}
+
+#check{
+    display: none;
+    
+}
+
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checbtn{
+        display: block;
+        visibility: visible;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        text-align: center;
+        transition-duration: 2s;
+        transform: translateX(-100%)
+        
+
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a:hover, a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+html,body,h1,h2,h3,h4,h5,h6 
+.w3-sidebar {
+  z-index: 3;
+  bottom: 0;
+  height: inherit;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+.mySidebar{
+    background-color: #bfa2ca;
+    background: #bfa2ca;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: beige;
+    color: black;
+}
+
+
+
+.title {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+
+}
+
+.faq {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.faq.active .answer {
+    max-height: 300px;
+
+}
+
+.section{
+     width: clamp(100px,50%,2000px);
+}
+
+.w3-sidebar{
+    background-color: #f5d8cb;
+    position: fixed;
+}
