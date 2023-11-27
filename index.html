@@ -203,6 +203,26 @@
    });
        </script>
 
+       <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Click here!</button>
+        <div class="popup" id="popup">
+          <h2>Thank You!</h2>
+          <button type="button" onclick="closePopup()">OK</button>
+        </div>
+       </div>
+    <script>
+      let popup = document.getElementById("popup");
+
+      function openPopup(){
+        popup.classList.add("open-popup");
+      }
+
+      function closePopup(){
+        popup.classList.remove("open-popup");
+      }
+
+    </script>
+
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
    <a class="w3-margin w3-xlarge"  href="https://www.youtube.com/watch?v=shZyg5VFI1Y&pp=ygUJYmlyaSBiaXJp">Thank You For Visiting </a>
   </body>
